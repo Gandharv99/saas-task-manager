@@ -1,0 +1,5 @@
+# Pin important transitive deps to avoid surprise breaks; update periodically.
+pydantic==2.8.2
+starlette==0.38.2
+sqlalchemy==2.0.32
+uvicorn==0.30.6
