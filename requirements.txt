@@ -1,0 +1,16 @@
+# Aggregates all service requirements so newcomers can:
+#   pip install -r requirements.txt
+-r apps/auth/requirements.txt
+-r apps/gateway/requirements.txt
+-r apps/projects/requirements.txt
+-r apps/tasks/requirements.txt
+-r apps/files/requirements.txt
+-r apps/notifications/requirements.txt
+-r apps/billing/requirements.txt
+-r apps/search/requirements.txt
+
+# Dev/test tooling for the repo (optional but handy)
+-r requirements-dev.txt
+
+# Global pins for reproducibility (optional)
+-c constraints.txt
